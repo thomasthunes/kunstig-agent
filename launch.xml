@@ -1,0 +1,9 @@
+<launch>
+    <group>
+        <node pkg="project_bryter" name="bryter_klient" exec="bryter_klient"/>
+        <node pkg="project_bryter" name="bryter_service" exec="bryter_service"/>
+        <node pkg="project_bryter" name="information_node" exec="information_node"/>
+        <node pkg="project_bryter" name="movement_node" exec="movement_node"/>
+        <node pkg="project_bryter" name="engine_node" exec="engine_node"/>
+    </group>
+</launch>
